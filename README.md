@@ -1,6 +1,13 @@
 Symfony2 PHP CodeSniffer Coding Standard
 ========================================
 
+A fork of [escapestudios/Symfony2-coding-standard](https://github.com/escapestudios/Symfony2-coding-standard). We reverted most of the standard to default PSR2 with some of the Symfony2 sniffs. 
+
+The original [**SquizLabs Standard** ControlStructureSniff](https://github.com/squizlabs/PHP_CodeSniffer/blob/master/CodeSniffer/Standards/Squiz/Sniffs/ControlStructures/ControlSignatureSniff.php) was also extended in order to allow one empty line between the opening brace of a control statement and the next control statement/comment.
+
+The original README can be read below.
+________________________________________
+
 A code standard to check against the [Symfony coding standards](http://symfony.com/doc/current/contributing/code/standards.html), shamelessly copied from the -disappeared- opensky/Symfony2-coding-standard repository.
 
 Installation
