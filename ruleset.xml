@@ -8,6 +8,7 @@
     <!-- Enforce the PSR2 standard -->
     <rule ref="PSR2">
         <exclude name="Squiz.ControlStructures.ControlSignature"/>
+        <exclude name="Squiz.WhiteSpace.ControlStructureSpacing.SpacingAfterOpen"/>
     </rule>
 
     <!-- Enforce our own version of the PSR2 control signature checker -->
